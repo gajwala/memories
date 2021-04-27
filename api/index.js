@@ -4,7 +4,7 @@ import axios from "axios";
 // const url = "https://9vw2z.sse.codesandbox.io/api/post";
 
 //for production
-const url = "csb-9vw2z-gkcf1ukjj-balugajwala.vercel.app/post";
+const url = "https://nextjsmemories.vercel.app/post";
 
 export const fetchPosts = () => axios.get(url);
 export const createPost = (newPost) => axios.post(url, newPost);
